@@ -32,7 +32,7 @@ void main()
         }
     }
  
-    // printing the transpose of a matrix
+  
     printf("Transpose of matrix is \n");
     for (i = 0; i< n; i++)
     {

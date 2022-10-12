@@ -9,11 +9,11 @@ for(i=0;i<n;i++)
 {
 scanf("%d",&a[i]);
 }
-for(i=0;i<n-1;i++) // unsorted sub array
+for(i=0;i<n;i++) //loop for  unsorted sub array
 {
     store=a[i];
     j=i-1;// 5>4 sorted subarray
-    while(j>=0 && a[j]>store)
+    while(j>=0 && a[j]>=store)// loop for sub sorted array
     {
         a[j+1]=a[j];
         j=j-1;
